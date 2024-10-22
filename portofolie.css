@@ -1,0 +1,27 @@
+
+.shape {
+	width: 5000px;
+	height: 1000px;
+    position:absolute;
+    border-radius: 50px;
+    top: 0;
+    right: 0;
+	background: aqua;
+	-moz-border-radius: 0px 0px  20px 110px;
+	-webkit-border-radius: 0px 0px  20px 110px;
+	border-radius: 50px 0px  20px 510px;
+}
+
+
+.shape1 {
+	width:1000px;
+	height: 900px;
+    position:absolute;
+    border-radius: 50px;
+    top: 0;
+    right: 0;
+	background: rgb(255, 0, 106);
+	-moz-border-radius: 10px 10px  20px 110px;
+	-webkit-border-radius: 10px 10px  20px 110px;
+	border-radius: 50px 10px  20px 510px;
+}
