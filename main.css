@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; 
+}
+
+
+.logo{
+font-size: 30px;
+font-weight: 700;
+text-decoration: none;
+color: rgb(255, 0, 0);
+}
+
+.desktop-nav nav ul{
+    display: flex ;
+}
+
+.desktop-nav nav{
+display: flex;
+margin: auto;
+padding: 25px;
+align-items: center;
+justify-content: space-around;
+font-size: 20px;
+box-shadow: 1px 1px 10px black;
+}
+
+
+.desktop-nav nav li {
+display: inline-block;
+text-decoration: none;
+margin: 10px 20px;
+}
+
+.desktop-nav nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.desktop-nav{
+
+  color: red;
+  text-decoration: none;
+}
+
+
+.desktop-nav nav :hover{
+    color: rgb(255, 0, 0);
+}
+
+.text{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+
+.text h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+span{
+color: rgb(255, 0, 0);
+}
+
+
+.text p{
+ color: 555;
+line-height: 22px;
+}
+
+.text a{
+  color: white;
+text-decoration: none;
+padding: 10px 18px;
+font-weight: bold;
+display: inline-block;
+margin: 30px 0;
+border-radius: 5px;
+background-color: black;
+transition: 300ms;
+}
+.text a:hover{
+color: rgb(255, 0, 0);
+transition: 300ms;
+}
+
+.foto{
+width: 35%;
+height: 80%;
+position: absolute;
+bottom: 0;
+right: 100px;
+border-radius: 50%;
+}
+
+.contact h1{
+color: orange;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 10vh;
+margin-top: 30px;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    font-size: x-large;
+}
+
+.logo-git{
+    width: 100px;
+    padding: 0%;
+    transition: 300ms;
+}
+
+.logo-git:hover{
+    transition: 300ms;
+    width: 160px;
+}
+
+.about-me h1{
+color: rgb(255, 174, 0);
+justify-content: center;
+display: flex;
+margin-top: 30px;
+font-size: 50px;
+}
+
+
+.about-me p{
+align-items: center;
+margin: auto;
+display: flex;
+text-align: center;
+max-width: 600px;
+margin-top: 100px;
+font-size: 30px;
+}
+
+table, th, td {
+    border:1px solid black;
+    margin: auto;
+    font-size: 30px;
+    margin-top: 20px;  
+}
+  .myskills {
+    margin-top: 30px;
+    color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+  }
+
+  .image {
+    width: 510px;
+    height: 480px;
+    border-radius: 50%;
+    border: 5px solid rgb(255, 0, 0);
+    box-shadow: 3px 3px 10px black;
+  }
+
+  .project h1{
+color: orange;
+text-align: center;
+margin: auto;
+margin-top: 50px;
+
+  }
+
+  .project h2{
+margin: auto;
+text-align: center;
+display: flex;
+
+
+  }
+
+  .interview h1{
+color: orange;
+text-align: center;
+margin-top: 50px;
+font-size: 50px;
+  }
+
+
+  .interview {
+
+    text-align: center;
+    margin-top: 20px;
+ 
+  }
+
+  .interview h2{
+margin-top: 20px;
+
+  }
+
+
+.interview p{
+
+font-size: 20px;
+
+}
+
+.form{text-align: center;
+
+}
+
+.cockie-wall{
+
+background-color: rgb(255, 0, 0);
+padding: 10px;
+justify-items: left;
+margin-top: 200px;
+padding: 10px
+}
+
+.knop{
+
+margin-bottom: 150%;
+
+}

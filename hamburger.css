@@ -1,0 +1,32 @@
+.mobile-nav {
+    display: none;
+}
+
+.hamburger-menu{
+    position: absolute;
+    right: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .desktop-nav {
+        display: none;
+    }
+
+    .mobile-nav{
+        display: block;
+        margin-left: -150px;
+        transition: all 500ms;
+    }
+
+    .show-mobile-nav{
+        margin-left: 0;
+        transition: all 500ms;
+    }
+}
+
+.mobile-nav ul li a{
+
+    text-decoration: none;
+    color: black;
+
+}
